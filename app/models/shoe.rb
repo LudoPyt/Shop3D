@@ -1,6 +1,4 @@
 class Shoe < ApplicationRecord
-    has_many :shoe_sizes, dependent: :destroy
-    has_many :colors, dependent: :destroy
     validates :name, :description, :price, presence:true
     validates :name, :price, uniqueness: true
 
