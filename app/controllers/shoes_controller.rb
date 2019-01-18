@@ -33,7 +33,7 @@ class ShoesController < ApplicationController
 
     respond_to do |format|
       if @shoe.save
-        format.html { redirect_to @shoe, notice: 'Shoe was successfully created.' }
+        format.html { redirect_to root_path, notice: 'Shoe was successfully created.' }
         format.json { render :index, status: :created, location: @shoe }
       else
         format.html { render :new }
