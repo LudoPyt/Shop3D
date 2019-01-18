@@ -44,12 +44,13 @@
           <div class="container-submit">
             <input type="button" id="submit" value="Commander">
           </div>
-          <%= link_to 'Edit', edit_admin_shoe_path(@shoe) %>
-          <%= link_to 'New Shoe', new_admin_shoe_path %>
-          <%= link_to 'Destroy', @shoe, method: :delete, class: "submit", data: { confirm: 'Are you sure?' } %>
+          <%= link_to 'Edit', edit_admin_shoe_path(shoe) %>
+          
+          <%= link_to 'Destroy', shoe, method: :delete, class: "submit", data: { confirm: 'Are you sure?' } %>
           <% end %>
         
         </div>
+        <%= link_to 'New Shoe', new_admin_shoe_path %>
       </div>
 
       <div id="canvas-scene" class="col-7">
