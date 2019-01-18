@@ -3,8 +3,8 @@
 
 @font-face {
     font-family: 'helveticaneuemedium';
-    src: url('helveticaneuemed-webfont.woff2') format('woff2'),
-         url('helveticaneuemed-webfont.woff') format('woff');
+    src: asset-url('helveticaneuemed-webfont.woff2') format('woff2'),
+         asset-url('helveticaneuemed-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -15,8 +15,8 @@
 
 @font-face {
     font-family: 'helveticaneuebold';
-    src: url('helvetica_neu_bold-webfont.woff2') format('woff2'),
-         url('helvetica_neu_bold-webfont.woff') format('woff');
+    src: asset-url('helvetica_neu_bold-webfont.woff2') format('woff2'),
+         asset-url('helvetica_neu_bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -27,8 +27,8 @@
 
 @font-face {
     font-family: 'helveticaneueblackcond';
-    src: url('helveticaneue_blackcond-webfont.woff2') format('woff2'),
-         url('helveticaneue_blackcond-webfont.woff') format('woff');
+    src: asset-url('helveticaneue_blackcond-webfont.woff2') format('woff2'),
+         asset-url('helveticaneue_blackcond-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -39,8 +39,8 @@
 
 @font-face {
     font-family: 'helveticaneuelight';
-    src: url('helveticaneue_light-webfont.woff2') format('woff2'),
-         url('helveticaneue_light-webfont.woff') format('woff');
+    src: asset-url('helveticaneue_light-webfont.woff2') format('woff2'),
+         asset-url('helveticaneue_light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -51,8 +51,8 @@
 
 // @font-face {
 //     font-family: 'helveticaneuemedium';
-//     src: url('helveticaneue_medium-webfont.woff2') format('woff2'),
-//          url('helveticaneue_medium-webfont.woff') format('woff');
+//     src: asset-url('helveticaneue_medium-webfont.woff2') format('woff2'),
+//          asset-url('helveticaneue_medium-webfont.woff') format('woff');
 //     font-weight: normal;
 //     font-style: normal;
 //
@@ -63,8 +63,8 @@
 
 @font-face {
     font-family: 'helveticaneuethin';
-    src: url('helveticaneue_thin-webfont.woff2') format('woff2'),
-         url('helveticaneue_thin-webfont.woff') format('woff');
+    src: asset-url('helveticaneue_thin-webfont.woff2') format('woff2'),
+         asset-url('helveticaneue_thin-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -75,8 +75,8 @@
 
 @font-face {
     font-family: 'helveticaneueregular';
-    src: url('helveticaneue-webfont.woff2') format('woff2'),
-         url('helveticaneue-webfont.woff') format('woff');
+    src: asset-url('helveticaneue-webfont.woff2') format('woff2'),
+         asset-url('helveticaneue-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -86,8 +86,8 @@
 
 @font-face {
     font-family: 'helveticaneuebold';
-    src: url('helveticaneuebd-webfont.woff2') format('woff2'),
-         url('helveticaneuebd-webfont.woff') format('woff');
+    src: asset-url('helveticaneuebd-webfont.woff2') format('woff2'),
+         asset-url('helveticaneuebd-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -98,8 +98,8 @@
 
 @font-face {
     font-family: 'helveticaneueheavy';
-    src: url('helveticaneuehv-webfont.woff2') format('woff2'),
-         url('helveticaneuehv-webfont.woff') format('woff');
+    src: asset-url('helveticaneuehv-webfont.woff2') format('woff2'),
+         asset-url('helveticaneuehv-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -110,8 +110,8 @@
 
 @font-face {
     font-family: 'helveticaneueitalic';
-    src: url('helveticaneueit-webfont.woff2') format('woff2'),
-         url('helveticaneueit-webfont.woff') format('woff');
+    src: asset-url('helveticaneueit-webfont.woff2') format('woff2'),
+         asset-url('helveticaneueit-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -122,8 +122,8 @@
 
 @font-face {
     font-family: 'helveticaneuelight';
-    src: url('helveticaneuelt-webfont.woff2') format('woff2'),
-         url('helveticaneuelt-webfont.woff') format('woff');
+    src: asset-url('helveticaneuelt-webfont.woff2') format('woff2'),
+         asset-url('helveticaneuelt-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
