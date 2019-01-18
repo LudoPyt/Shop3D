@@ -33,7 +33,7 @@ class ShoesController < ApplicationController
 
     respond_to do |format|
       if @shoe.save
-        format.html { redirect_to root_path, notice: 'Shoe was successfully created.' }
+        format.html { redirect_to admin_root_path, notice: 'Shoe was successfully created.' }
         format.json { render :index, status: :created, location: @shoe }
       else
         format.html { render :new }
@@ -45,13 +45,12 @@ class ShoesController < ApplicationController
   # PATCH/PUT /shoes/1
   # PATCH/PUT /shoes/1.json
   def update
-    @shoe = Shoe.new(shoe_params)
     respond_to do |format|
       if @shoe.update(shoe_params)
-        format.html { redirect_to @shoe, notice: 'Shoe was successfully updated.' }
+        format.html { redirect_to admin_root_path, notice: 'Shoe was successfully updated.' }
         format.json { render :show, status: :ok, location: @shoe }
       else
-        format.html { render :edit }
+        format.html { render "admin/shoes/edit" }
         format.json { render json: @shoe.errors, status: :unprocessable_entity }
       end
     end
@@ -62,7 +61,7 @@ class ShoesController < ApplicationController
   def destroy
     @shoe = Shoe.destroy(params[:id])
     respond_to do |format|
-      format.html { redirect_to shoes_url, notice: 'Shoe was successfully destroyed.' }
+      format.html { redirect_to admin_root_path, notice: 'Shoe was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
