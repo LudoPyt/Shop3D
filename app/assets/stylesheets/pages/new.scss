@@ -4,6 +4,34 @@
 
     .form-new {
         margin-top: 100px;
+
+        &.session {
+            max-width: 50vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .form-inputs {
+        input, textarea{
+            background-color: transparent;
+            color: white;
+            min-width: 20%;
+        }
+    }
+    .form-actions {
+        input {
+            border: solid white 2px;
+        }
+    }
+
+    .form-check {
+        padding: 0;
+
+        label {
+            padding-left: 20px;
+        }
+        
     }
 
     .field {
