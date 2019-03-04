@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   devise_for :users
-  resources :shoes
   namespace :admin do
     resources :shoes
     root to:'shoes#home'
